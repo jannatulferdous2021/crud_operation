@@ -1,0 +1,67 @@
+body{
+    background-image: url('image/bg_img.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+table{
+
+    border-radius: 20px;
+    width: 80%;
+    margin: 40px auto;
+    background: gray;
+}
+table.list{
+    text-align: center;
+    width: 100%;
+}
+td{
+    border: 1px solid gray;
+    text-align: center;
+    padding: 8px 15px;
+}
+tr:nth-child(even), table.list thread> tr{
+    background-color: antiquewhite;
+}
+input[type="text"],input[type="number"]{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid gray;
+}
+input[type="submit"],input[type="reset"]{
+    background-color: #EEEEEE;
+    margin: 15px 0 10px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+}
+input[type= "submit"]:hover{
+    background: skyblue;
+}
+input[type="reset"]:hover{
+    background: skyblue;
+}
+button{
+    background-color: #EEEEEE;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border:none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    background: skyblue;
+}
